@@ -1,3 +1,6 @@
+local twe = GetService("TweenService")
+local tweinf = TweenInfo.new(0.25, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+
 local Info = {
     local themerv = "1.1"
     local themename = "LimeOS 2 UI"
