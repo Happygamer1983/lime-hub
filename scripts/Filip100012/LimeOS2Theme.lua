@@ -2,10 +2,10 @@ local twe = GetService("TweenService")
 local tweinf = TweenInfo.new(0.25, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
 
 local Info = {
-    themerv = "1.1"
-    themename = "LimeOS 2 UI"
-    themecreator = "Nerdya"
-    limeosv = 1.18
+    themerv = "1.1",
+    themename = "LimeOS 2 UI",
+    themecreator = "Nerdya",
+    limeosv = 1.18,
     limeosmv = 1.19
 }
 
