@@ -1,5 +1,13 @@
-return function(main)
-    if main:FindFirstChild("Modernized") and main.Modernized.Value == themerv then return "App "..main.Name.." is already updated." end
+local Info = {
+    local themerv = "1.1"
+    local themename = "LimeOS 2 UI"
+    local themecreator = "Nerdya"
+    local limeosv = 1.18
+    local limeosmv = 1.19
+}
+
+return {Info=Info, Theme=function(main)
+    if main:FindFirstChild("Modernized") then return "App "..main.Name.." is already updated." end
     local tbar = main:WaitForChild("TopBar")
     local uistroke = new("UIStroke", main)
     local betbar = new("Frame", tbar)
@@ -47,4 +55,4 @@ return function(main)
     val.Value = themerv
     val.Parent = main
     return "Updated "..main.Name
-end
+end}
