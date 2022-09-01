@@ -55,7 +55,7 @@ return {Info=Info, Theme=function(main)
     new("UIStroke", betbar).Color = Color3.fromRGB(24, 29, 35)
     local val = uisfolder().Parent.SystemFiles.RegEditData.PlayerPassword:Clone()
     val.Name = "Modernized"
-    val.Value = themerv
+    val.Value = Info.themerv
     val.Parent = main
     return "Updated "..main.Name
 end}
